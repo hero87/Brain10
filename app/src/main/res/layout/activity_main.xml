@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/normal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.mhkab.brain7.MainActivity"
+    android:id="@+id/relativelayout_id">
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="true"
+        android:id="@+id/gridlayout_id"
+        android:visibility="invisible">
+
+
+        <TextView
+            android:id="@+id/textViewMath"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold|italic"
+            android:layout_gravity="center"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/textView_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="right"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="30"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A7A6"
+            android:shadowDx="-20"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A7A6"
+            android:shadowDx="-20"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A7A6"
+            android:shadowDx="-20"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+            />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A7A6"
+            android:shadowDx="-20"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A7A6"
+            android:shadowDx="-20"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+
+            />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A7A6"
+            android:shadowDx="-20"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+
+
+            />
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="touch to start"
+        android:id="@+id/textView_start"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:textStyle="bold"
+        android:textSize="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView_result"
+        android:layout_below="@+id/gridlayout_id"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
